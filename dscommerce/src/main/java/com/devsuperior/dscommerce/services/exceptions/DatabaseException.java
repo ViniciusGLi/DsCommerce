@@ -1,9 +1,10 @@
 package com.devsuperior.dscommerce.services.exceptions;
 
-public class DatabaseException extends RuntimeException{
+@SuppressWarnings("serial")
+public class DatabaseException extends RuntimeException {
 
-    public DatabaseException(String msg){
+    public DatabaseException(String msg) {
         super(msg);
     }
-    
+
 }
